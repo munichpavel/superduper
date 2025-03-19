@@ -102,13 +102,13 @@ We use `black` for code formatting, `run` for linting, and `mypy` for type-check
 
 You can run the following commands to check the code:
 
-```
+```shell
 make lint-and-type-check
 ```
 
 If you want to format the code, you can run the following command:
 
-```
+```shell
 make fix-and-check
 ```
 
@@ -161,7 +161,7 @@ Please go to the repository and create a pull request with the changes you want 
 
 ### Fork and clone the repository
 
-```
+```shell
 git clone git@github.com:<FORKED_NAME>/superduper-docs.git
 cd superduper-docs
 ```
@@ -188,7 +188,7 @@ After you create or update a template, you need to update the documentation.
 
 We can use the `to_docusaurus_markdown.py` script to convert the Jupyter notebook to the markdown file.
 
-```
+```shell
 python3 to_docusaurus_markdown.py <Your superduper project path>/templates/<TEMPLATE_NAME>/build.ipynb
 ```
 

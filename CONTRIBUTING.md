@@ -32,7 +32,6 @@ Verify that you are running a compatible python version according to the entry `
 
 Set up your python environment:
 
-
 ```shell
 # Create your Python virtual environment
 python3 -m venv .venv
@@ -87,7 +86,7 @@ make usecase_testing
 
 ### Plugin tests
 
-We maintain a set of plugins that are tested independently.. If you change the plugin code, you can run the tests for that plugin.
+We maintain a set of plugins that are tested independently. If you change the plugin code, you can run the tests for that plugin.
 
 ```shell
 export PYTHONPATH=./
@@ -96,7 +95,6 @@ pip install -e 'plugins/<PLUGIN_NAME>[test]'
 # Run the tests
 pytest plugins/<PLUGIN_NAME>/plugin_test
 ```
-
 
 ## Lint and type-check the code
 
@@ -109,6 +107,7 @@ make lint-and-type-check
 ```
 
 If you want to format the code, you can run the following command:
+
 ```
 make fix-and-check
 ```
@@ -158,7 +157,6 @@ If you want to create a new template, you can follow the steps below:
 ## Contributing to the documentation
 We maintain the documentation in the [superduper-docs](https://github.com/superduper-io/superduper-docs) repository.
 
-
 Please go to the repository and create a pull request with the changes you want to make.
 
 ### Fork and clone the repository
@@ -197,9 +195,6 @@ python3 to_docusaurus_markdown.py <Your superduper project path>/templates/<TEMP
 Then a new markdown file `<Your superduper project path>/templates/<TEMPLATE_NAME>/build.md`.
 
 You can copy the file to the `superduper-docs/content/templates` directory and change the file name to `<TEMPLATE_NAME>.md`.
-
-
-
 
 ## Create an issue
 

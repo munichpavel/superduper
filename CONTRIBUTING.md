@@ -28,6 +28,8 @@ git clone git@github.com:<FORKED_NAME>/superduper.git
 cd superduper
 ```
 
+Verify that you are running a compatible python version according to the entry `requires-python = ">=3.x"` of our [pyproject.toml](pyproject.toml). If not, [pyenv](https://github.com/pyenv/pyenv) is one tool for managing multiple python versions.
+
 Set up your python environment:
 
 

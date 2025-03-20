@@ -54,9 +54,8 @@ Install the required plugins for your development environment.
 ```shell
 # The mongodb plugin is required for the tests (nosql)
 pip install -e 'plugins/mongodb[test]'
-# The ibis and sqlalchemy plugins are required for the tests (sql)
+# The ibis plugin is required for the tests (sql)
 pip install -e 'plugins/ibis[test]'
-pip install -e 'plugins/sqlalchemy[test]'
 ```
 
 You can install any additional plugins needed for your development environment.
